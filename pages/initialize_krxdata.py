@@ -50,7 +50,7 @@ with col1:
 
     if pw == PASSWORD:
         st.markdown("<br>", unsafe_allow_html=True)
-        days = st.slider("초기화 일 수", min_value=300, max_value=2000, value=600, step=100)
+        days = st.slider("초기화 일 수", min_value=200, max_value=2000, value=600, step=100)
         if st.button("초기화 실행"):
             end_date = datetime.today().strftime("%Y%m%d")
             start_date = (datetime.today() - timedelta(days=days * 2)).strftime("%Y%m%d")
