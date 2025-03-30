@@ -127,7 +127,7 @@ with colr:
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown(
     """
-    <a href="../streamlit_app.py" target="_self">
+    <a href="../" target="_self">
         <div style="
             display: block;
             background-color: #007AFF;
